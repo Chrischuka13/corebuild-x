@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom"
-import { useLocation } from "react-router-dom"
-
 
 export default function Footer() {
     
@@ -10,7 +8,7 @@ export default function Footer() {
         <footer className="bg-black">
           <div className="w-11/12 container mx-auto py-16">
             <div className="mb-12">
-              <img src="images/logo.png" alt="" className="md:w-40"/>
+              <img src="/images/logo.png" alt="" className="md:w-40"/>
             </div>
 
             <hr className="border border-[#333333] mb-12"/>
@@ -18,7 +16,7 @@ export default function Footer() {
             <div className="lg:flex justify-between md:flex-row-reverse">
               <div className=" mb-6">
                 <div className="relative">
-                  <img src="images/sendicon.png" alt="" className='absolute top-4 left-5' />
+                  <img src="/images/sendicon.png" alt="" className='absolute top-4 left-5' />
                     <input type="email" placeholder="E-mail" className="p-4 px-14 bg-[#222222] rounded-[50px] w-full border-none text-[#C1C1BE]"/>
                     <button className="absolute top-2 right-2 p-2 bg-[#FF4F00] rounded-[50px] w-40.25 text-white mb-4 hover:bg-[#FF4F39] hover:cursor-pointer font-semibold">GET NOTIFIED</button>
                 </div>

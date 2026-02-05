@@ -11,9 +11,9 @@ export default function AboutPage(){
 
     return(
         <main>  
-            <div className="bg-[linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/images/abouthero.png)] bg-center bg-cover min-h-screen flex items-end justify-center">
-                <div className=" w-11/12 container mx-auto flex justify-center items-center h-[50vh] md:h-screen">
-                <h1 className="text-white text-5xl font-bold md:text-9xl">About Us</h1>
+            <div className="bg-[linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/images/abouthero.png)] bg-center bg-cover md:min-h-screen h-[50vh] flex items-end justify-center">
+                <div className=" w-11/12 container mx-auto flex justify-center items-center ">
+                <h1 className="text-white text-5xl font-bold md:text-9xl mb-40 ">About Us</h1>
                 </div>
             </div>
 

@@ -19,14 +19,14 @@ export default function NavBar() {
                       </div>
                       <div className='flex flex-col mb-6'>
                         <Link to="/contact" className='text-white hover:text-gray-200 hover:cursor-pointer'>CONTACT</Link>
-                        <Link to="#" className='text-white hover:text-gray-200 hover:cursor-pointer'>404</Link>
+                        <Link to="" className='text-white hover:text-gray-200 hover:cursor-pointer'>404</Link>
                       </div>
                     </div>
                     <div className="hidden lg:flex justify-center items-center gap-12">
                       <div className='space-x-4'>
-                        <a href="#" className='text-white hover:text-gray-200 hover:cursor-pointer'>IG</a>
-                        <a href="#" className='text-white hover:text-gray-200 hover:cursor-pointer'>X</a>
-                        <a href="#" className='text-white hover:text-gray-200 hover:cursor-pointer'>IN</a>
+                        <a href="" className='text-white hover:text-gray-200 hover:cursor-pointer'>IG</a>
+                        <a href="" className='text-white hover:text-gray-200 hover:cursor-pointer'>X</a>
+                        <a href="" className='text-white hover:text-gray-200 hover:cursor-pointer'>IN</a>
                       </div>
                         <Link to="/contact"><button className='bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-4xl hover:cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110'>GET A QUOTE</button></Link> 
                     </div>
