@@ -73,12 +73,12 @@ export default function ContactPage(){
                         </div>
                         <div className='md:max-w-172'>
                             <div>
-                                <h1 className='text-5xl text-white font-semibold mb-8'>Get your custom quote for innovative architectural solutions.</h1>
+                                <h1 className='text-5xl text-balance text-white font-semibold mb-8'>Get your custom quote for innovative architectural solutions.</h1>
                             </div>
 
                             <form onSubmit={submitContact} className='md:flex flex-col gap-6'>
                                 <div className='md:flex gap-6 '>
-                                    <input name="name" type='text' placeholder='john Doe' className='p-3 bg-white bg-none rounded-2xl w-full mb-4' value={name} onChange={(event)=> {setName(event.target.value), setError(""), setSuccess("")}}/>
+                                    <input name="name" type='text' placeholder='Chris Chuka' className='p-3 bg-white bg-none rounded-2xl w-full mb-4' value={name} onChange={(event)=> {setName(event.target.value), setError(""), setSuccess("")}}/>
                                     <input name="email" type='email' placeholder='contact@email.com' className='p-3 bg-white bg-none rounded-2xl w-full mb-4' value={email} onChange={(event)=> {setEmail(event.target.value), setError(""), setSuccess("")}}/>
                                 </div>
                                 

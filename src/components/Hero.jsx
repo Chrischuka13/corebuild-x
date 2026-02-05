@@ -41,9 +41,9 @@ const Hero = () => {
 
   return (
     <main>
-      <div className="bg-[linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/images/hero.png)] bg-center bg-cover min-h-screen flex items-end justify-center">
+      <div className="bg-[linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/images/hero.png)] bg-center bg-cover md:min-h-screen h-[50vh] flex items-end justify-center">
         <div className="w-11/12 container mx-auto">
-          <div className="flex justify-center items-center h-screen max-w-187.5">
+          <div className="flex justify-center items-center md:h-screen max-w-187.5">
             <h1 className="text-white text-3xl font-bold md:text-6xl mb-40 md:mb-0">Give your construction company a modern edge with CoreBuild™.</h1>
           </div>
         </div>    

@@ -82,7 +82,7 @@ export default function AboutPage(){
                     <p className="text-white flex items-center justify-center font-semibold">THE TEAM</p>
                     </div>
                     <div>
-                    <h1 className="text-4xl text-white max-w-175 font-semibold mb-16 md:text-5xl">Meet the brilliant team powering our architectural innovations.</h1>
+                    <h1 className="text-4xl text-balance text-white max-w-175 font-semibold mb-16 md:text-5xl">Meet the brilliant team powering our architectural innovations.</h1>
                     </div>
                 </div>
                     

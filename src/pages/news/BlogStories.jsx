@@ -31,9 +31,9 @@ export default function BlogStories(){
             <div className='relative'>
                 <div className="w-11/12 container mx-auto ">
                     <div className="absolute inset-0 bg-black/40 rounded-lg"></div>
-                    <h1 className="max-w-180 bottom-20 text-white text-3xl font-semibold md:text-5xl mb-40 md:mb-0 absolute">{article.title}</h1>
+                    <h1 className="max-w-180 bottom-20 text-white text-3xl font-semibold md:text-5xl absolute">{article.title}</h1>
                 </div>
-                <img src={article.image2} alt="" className='w-full object-cover h-168.75'/>
+                <img src={article.image2} alt="" className='w-full object-cover md:h-168.75 h-[50vh]'/>
             </div>
 
             <section className="bg-[#161616] ">
@@ -44,7 +44,7 @@ export default function BlogStories(){
                         </div>
                         <div className="max-w-85 md:max-w-187.5 space-y-8">
                             <div>
-                                <h2 className="text-white text-[22px] text-balance mb-10">{article.content}</h2>
+                                <h2 className="text-white text-[20px] mb-10 whitespace-pre-line break-inside-auto">{article.content}</h2>
                                 <Link to='/blog' className=" bg-[#FF4F00] p-3 rounded-[50px] text-white hover:bg-[#FF4F39] hover:cursor-pointer font-semibold">BACK TO NEWS</Link>
                             </div>
                         
